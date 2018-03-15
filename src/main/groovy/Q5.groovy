@@ -51,7 +51,12 @@ class Q5 {
          hourMinute.incHh()
          hourMinute.decHh()
          hourMinute.incMm()
+         hourMinute.decHh()
+         hourMinute.incHh()
+
          hourMinute.decMm()
+         hourMinute.incHh()
+         hourMinute.incMm()
 
 
 

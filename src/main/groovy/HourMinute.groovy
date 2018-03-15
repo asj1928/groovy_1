@@ -12,7 +12,6 @@ class HourMinute {
 
         check()
 
-        println("TIME =$hh : $mm")
 
     }
     void incMm(){
@@ -25,7 +24,6 @@ class HourMinute {
 
         check()
 
-        println("TIME =$hh : $mm")
 
 
     }
@@ -33,7 +31,6 @@ class HourMinute {
 
         hh--
         check()
-        println("TIME =$hh : $mm")
 
 
 
@@ -47,7 +44,6 @@ class HourMinute {
 
 
         check()
-        println("TIME =$hh : $mm")
 
 
 
@@ -65,6 +61,8 @@ class HourMinute {
         if(hh<0){
             hh=23
         }
+        println("TIME =$hh : $mm")
+
 
     }
 
