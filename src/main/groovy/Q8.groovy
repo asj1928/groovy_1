@@ -27,6 +27,7 @@ class Q8 {
         def b= new File("/home/ajay/groovy_1/src/main/desNew/des.text")
         def a= new File("/home/ajay/groovy_1/src/main/scrNew").eachFile { file->
             b<<file.getText()
+            b<<"\n"
 
 
 
