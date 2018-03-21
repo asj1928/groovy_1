@@ -12,7 +12,7 @@ class Q6 {
             p=n
             10.times {
 
-            print (n+" ")
+            print (n+"   ")
             n=n+p
         }
 
